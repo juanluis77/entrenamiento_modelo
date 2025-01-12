@@ -1,0 +1,13 @@
+
+path: /content/datasets/yolov11  # ruta base absoluta
+train: train/images
+val: valid/images
+test: test/images
+nc: 4
+names: ['Metal', 'Papel', 'Plastico', 'Vidrio']
+roboflow:
+  workspace: deteccion-de-residuos-modulo-4
+  project: reciclaje-c9ri0-jtmne
+  version: 3
+  license: Public Domain
+  url: https://universe.roboflow.com/deteccion-de-residuos-modulo-4/reciclaje-c9ri0-jtmne/dataset/3
